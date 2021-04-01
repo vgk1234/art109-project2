@@ -1,0 +1,104 @@
+<!DOCTYPE html><html lang="en">
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="p5.js"></script>
+    <script src="p5.sound.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <h1>LOW POINT</h1>
+    <p>You are not in the best spirits at the moment. Recently you have been through an event. Maybe somebody 
+      hurt you brutally. Maybe you talked to your close friend, who is doing so much better than you. Maybe you
+      have scrolled through social media and observed people living their perfectly content lives. Maybe you 
+      tried explaining your bad encounters to your parents or anyone else and they have dismissed them. You are 
+      now in a state of negativity. You can’t explain what that is, but you feel everything come crashing and you 
+      gather the worst thoughts from your past, present, and future. Click the following links to see some of your 
+      thoughts (in first person POV).</p>
+    <div class="row">
+      <div class="column" style="background-color: #ffccff; border-color: #660033;">
+        <h2>PAST</h2>
+        <button id="myBtn1">CLICK</button>
+      </div>
+      <div class="column" style="background-color: #ffcccc; border-color: #993300;">
+        <h2>PRESENT</h2>
+        <button id="myBtn2">CLICK</button>
+      </div>
+      <div class="column" style="background-color: #ccffff; border-color: #003366;">
+        <h2>FUTURE</h2>
+        <button id="myBtn3">CLICK</button>
+      </div>
+    </div>
+    <div id="myModal1" class="modal">
+      <div class="modal-content">
+        <span class="close1">&times;</span>
+        <p>You are recollecting repressed memories from years ago</p>
+        <img src="Images/Past_Image.jpg" width="300" height="200">
+        <br>
+        <a href="page1.html"><b>Click to ponder past thoughts</b></a>
+        <p style="font-size: 10px;">Image by <a href="https://pixabay.com/users/bessi-909086/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=832079">Bessi</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=832079">Pixabay</a></p>
+      </div>
+    </div> 
+    <div id="myModal2" class="modal">
+      <div class="modal-content">
+        <span class="close2">&times;</span>
+        <p>You are trying to be in control of your thoughts, trying to be at peace</p>
+        <img src="Images/Hourglass.jpg" width="300" height="200">
+        <br>
+        <a href="page2.html"><b>Click to ponder present thoughts</b></a>
+        <p style="font-size: 10px;">Image by <a href="https://pixabay.com/users/anncapictures-1564471/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2910948">anncapictures</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2910948">Pixabay</a></p>
+      </div>
+    </div> 
+    <div id="myModal3" class="modal">
+      <div class="modal-content">
+        <span class="close3">&times;</span>
+        <p>You are wondering where will you be</p>
+        <img src="Images/Wormhole.jpg" width="300" height="200">
+        <br>
+        <a href="page3.html"><b>Click to ponder future thoughts</b></a>
+        <p style="font-size: 10px;">Image by <a href="https://pixabay.com/users/genty-2604684/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2514312">Genty</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2514312">Pixabay</a></p>
+      </div>
+    </div>
+    <script>
+      var modal1 = document.getElementById("myModal1");
+      var modal2 = document.getElementById("myModal2");
+      var modal3 = document.getElementById("myModal3");
+      var btn1 = document.getElementById("myBtn1");
+      var btn2 = document.getElementById("myBtn2");
+      var btn3 = document.getElementById("myBtn3");
+      var span1 = document.getElementsByClassName("close1")[0];
+      var span2 = document.getElementsByClassName("close2")[0];
+      var span3 = document.getElementsByClassName("close3")[0];
+      btn1.onclick = function() {
+          modal1.style.display = "block";
+        }
+      btn2.onclick = function() {
+          modal2.style.display = "block";
+        }
+      btn3.onclick = function() {
+          modal3.style.display = "block";
+        }
+      span1.onclick = function() {
+          modal1.style.display = "none";
+        }
+      span2.onclick = function() {
+          modal2.style.display = "none";
+        }
+      span3.onclick = function() {
+          modal3.style.display = "none";
+        }
+      window.onclick = function(event) {
+          if (event.target == modal1) {
+            modal1.style.display = "none";
+          }
+          else if (event.target == modal2) {
+            modal2.style.display = "none";
+          }
+          else if (event.target == modal3) {
+            modal3.style.display = "none";
+          }
+        }
+    </script>
+  </body>
+</html>
