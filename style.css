@@ -171,7 +171,7 @@ a:active {
   background-color:  rgba(230, 230, 230, 0.5);
 }
 .present {
-  margin: 150px 200px 0px;
+  margin: 100px 200px 0px;
   padding: 20px;
   text-align: center;
   background-color: rgba(230, 230, 230, 0.5);
@@ -183,7 +183,7 @@ a:active {
 }
 
 .future {
-  margin: 150px 200px 0px;
+  margin: 100px 200px 0px;
   padding: 20px;
   text-align: center;
   background-color: rgba(230, 230, 230, 0.5);
