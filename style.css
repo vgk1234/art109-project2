@@ -154,6 +154,9 @@ a:active {
   font-family: 'Raleway', sans-serif;
 }
 
+.past a {
+  background-color:  rgba(230, 230, 230, 0.5);
+}
 .present {
   margin: 150px 200px 0px;
   padding: 20px;
@@ -162,10 +165,20 @@ a:active {
   font-family: 'Raleway', sans-serif;
 }
 
+.present a {
+  background-color:  rgba(230, 230, 230, 0.5);
+}
+
 .future {
   margin: 150px 200px 0px;
   padding: 20px;
   text-align: center;
   background-color: rgba(230, 230, 230, 0.5);
   font-family: 'Raleway', sans-serif;
+}
+
+.link {
+  margin-left: 200px;
+  margin-right: 200px;
+  background-color:  rgba(230, 230, 230, 0.5);
 }
