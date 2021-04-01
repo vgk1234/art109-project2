@@ -147,7 +147,7 @@ a:active {
 }
 
 .past {
-  margin: 200px 200px;
+  margin: 200px 150px 0px;
   padding: 20px;
   text-align: center;
   background-color: rgba(230, 230, 230, 0.5);
@@ -155,7 +155,7 @@ a:active {
 }
 
 .present {
-  margin: 200px 200px;
+  margin: 200px 150px 0px;
   padding: 20px;
   text-align: center;
   background-color: rgba(230, 230, 230, 0.5);
@@ -163,7 +163,7 @@ a:active {
 }
 
 .future {
-  margin: 200px 200px;
+  margin: 200px 150px 0px;
   padding: 20px;
   text-align: center;
   background-color: rgba(230, 230, 230, 0.5);
