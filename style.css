@@ -163,35 +163,35 @@ a:active {
   margin: 150px 200px 0px;
   padding: 20px;
   text-align: center;
-  background-color: rgba(230, 230, 230, 0.5);
+  background-color: rgba(230, 230, 230, 0.6);
   font-family: 'Raleway', sans-serif;
 }
 
 .past a {
-  background-color:  rgba(230, 230, 230, 0.5);
+  background-color:  rgba(230, 230, 230, 0.6);
 }
 .present {
   margin: 100px 200px 0px;
   padding: 20px;
   text-align: center;
-  background-color: rgba(230, 230, 230, 0.5);
+  background-color: rgba(230, 230, 230, 0.6);
   font-family: 'Raleway', sans-serif;
 }
 
 .present a {
-  background-color:  rgba(230, 230, 230, 0.5);
+  background-color:  rgba(230, 230, 230, 0.6);
 }
 
 .future {
   margin: 100px 200px 0px;
   padding: 20px;
   text-align: center;
-  background-color: rgba(230, 230, 230, 0.5);
+  background-color: rgba(230, 230, 230, 0.6);
   font-family: 'Raleway', sans-serif;
 }
 
 .link {
   margin-left: 200px;
   margin-right: 200px;
-  background-color:  rgba(230, 230, 230, 0.5);
+  background-color:  rgba(230, 230, 230, 0.6);
 }
