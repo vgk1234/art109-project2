@@ -14,9 +14,7 @@ function setup() {
 function draw() {
   background(0);
   let radius = width * 1.5;
-
   orbitControl();
-
   translate(0, 0, -600);
   for (let i = 0; i <= 12; i++) {
     for (let j = 0; j <= 12; j++) {
